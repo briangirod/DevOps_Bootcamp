@@ -11,7 +11,6 @@ El desafío cubre los siguientes aspectos esenciales:
 - **AWS CLI**: Pasos para instalar y configurar AWS CLI en tu equipo.
 - **IAM**: Creación y administración de usuarios, grupos y políticas de acceso.
 - **S3**: Creación, listado y eliminación de buckets, así como operaciones con objetos (subida y descarga).
-- **EC2**: Manejo de instancias (inicio, detención, terminación) y consulta de su estado.
 - **Automatización de tareas**: Uso de scripts para simplificar operaciones repetitivas en AWS.
 
 ## ✅ Requisitos
