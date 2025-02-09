@@ -8,21 +8,21 @@ Durante el bootcamp, se trabajó con las siguientes tecnologías:
 - **Jenkins**: Automatización de CI/CD.  
 - **Kubernetes**: Orquestación de contenedores.  
 - **kubectl** & **Minikube**: Gestión y desarrollo en entornos locales de Kubernetes.  
-- **AWS**: Servicios en la nube, incluyendo IAM, EC2 y S3.  
+- **AWS**: Servicios en la nube, incluyendo IAM, EC2, S3, Cloudfronty OAC  
 - **ArgoCD**: Entrega continua basada en GitOps.  
 - **Helm**: Gestión de despliegues en Kubernetes mediante charts.  
 - **Terraform**: Infraestructura como código para la automatización de entornos en la nube.  
 - **Ansible**: Automatización de configuración y despliegue de servidores.  
 
 ## 📂 Estructura del Repositorio  
-- `Desafio_3/` → Configuraciones y pipelines de Jenkins.  
-- `Desafio_4/` → Manifiestos y configuraciones de Kubernetes.  
-- `Desafio_5/` → Scripts y configuraciones para servicios en AWS.  
-- `Desafio_6/` → Infraestructura como código con Terraform.  
-- `Desafio_7/` → Playbooks y roles para la automatización con Ansible.
-- `Desafio_8/` → Playbooks y roles para la automatización con Ansible.
-- `Desafio_9/` → Playbooks y roles para la automatización con Ansible.
-- `Desafio_10/` → Playbooks y roles para la automatización con Ansible.
+- `Desafio_3/` → Despliegue de Bucket S3, Configuración IAM y AWS CLI  
+- `Desafio_4/` → Creación de entorno de desarrollo con EC2, VPC y RDS
+- `Desafio_5/` → Desarrollo de build NodeJS con Docker y Docker-Compose + MongoDB  
+- `Desafio_6/` → Despliegue de sitio web en EC2 con CaC Ansible, PHP y MySQL
+- `Desafio_7/` → Despliegue de sitio estático con S3, CloudFront y OAC
+- `Desafio_8/` → Despliegue de aplicación en Kubernetes
+- `Desafio_9/` → Desarrollo de Helm Chart con Despliegue de APP + MongoDB
+- `Desafio_10/` → Implementación de ArgoCD con Kubernetes e integración a GitHub
 
 ## 🚀 Instalación y Uso  
 Para clonar este repositorio:  
