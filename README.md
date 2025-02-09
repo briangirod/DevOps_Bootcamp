@@ -15,11 +15,14 @@ Durante el bootcamp, se trabajó con las siguientes tecnologías:
 - **Ansible**: Automatización de configuración y despliegue de servidores.  
 
 ## 📂 Estructura del Repositorio  
-- `jenkins/` → Configuraciones y pipelines de Jenkins.  
-- `kubernetes/` → Manifiestos y configuraciones de Kubernetes.  
-- `aws/` → Scripts y configuraciones para servicios en AWS.  
-- `terraform/` → Infraestructura como código con Terraform.  
-- `ansible/` → Playbooks y roles para la automatización con Ansible.  
+- `Desafio_3/` → Configuraciones y pipelines de Jenkins.  
+- `Desafio_4/` → Manifiestos y configuraciones de Kubernetes.  
+- `Desafio_5/` → Scripts y configuraciones para servicios en AWS.  
+- `Desafio_6/` → Infraestructura como código con Terraform.  
+- `Desafio_7/` → Playbooks y roles para la automatización con Ansible.
+- `Desafio_8/` → Playbooks y roles para la automatización con Ansible.
+- `Desafio_9/` → Playbooks y roles para la automatización con Ansible.
+- `Desafio_10/` → Playbooks y roles para la automatización con Ansible.
 
 ## 🚀 Instalación y Uso  
 Para clonar este repositorio:  
