@@ -1,0 +1,44 @@
+---
+- name: apt update y upgrade
+  apt:
+    update_cache: yes
+    upgrade: dist
+    autoclean: yes
+    autoremove: yes
+
+- name: Instalar Pip
+  apt:
+    name: python3-pip
+    state: present
+
+- name: Instalar PyMySQL con Pip
+  pip:
+    name: PyMySQL
+    state: present
+
+- name: Instalar MySQL-Server
+  apt:
+    name: mysql-server
+    state: present
+
+- name: Iniciar y habilitar MySQL
+  service:
+    name: mysql
+    state: started
+    enabled: yes
+
+- name: Crear base de datos de WordPress
+  mysql_db:
+    name: wordpress
+    state: present
+    login_user: root
+    login_password: "testing-123"
+
+- name: Crear usuario de WordPress
+  mysql_user:
+    name: wpuser
+    password: wp_password
+    priv: 'wordpress.*:ALL'
+    state: present
+    login_user: root
+    login_password: "testing-123"

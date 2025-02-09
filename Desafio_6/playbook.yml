@@ -1,0 +1,7 @@
+---
+-  name: Configuracion EC2 para Wordpress
+   hosts: wordpress
+   become: true
+   roles:
+    -  php
+    -  mysql
