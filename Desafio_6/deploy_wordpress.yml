@@ -1,0 +1,9 @@
+---
+- hosts: wordpress
+  become: yes
+  roles:
+    - apache
+    - php
+    - mysql
+    - wordpress
+

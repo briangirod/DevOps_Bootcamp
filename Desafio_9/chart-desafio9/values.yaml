@@ -1,0 +1,10 @@
+appReplicaCount: 2
+
+appImage:
+  repository: .
+  tag: latest
+
+ingress:
+  enabled: false
+
+serviceNodePort: 30001
