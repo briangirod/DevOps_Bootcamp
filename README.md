@@ -27,6 +27,5 @@ Durante el bootcamp, se trabajó con las siguientes tecnologías:
 ## 🚀 Instalación y Uso  
 Para clonar este repositorio:  
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/briangirod/DevOps_Bootcamp.git
 ```
